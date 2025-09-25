@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.gap{
+    height:3rem;
+}
+.nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:70%;
+    padding:1rem 15% ;
+    background-color:white;
+    border-bottom:1px solid lightgray;
+    z-index:2;
+}
+.nav img{
+    width: 40%;
+}
+.nav ul{
+    display: flex;
+    list-style:none;
+}
+.nav li{
+    padding-left:2rem;
+}
+.con_container{
+ 
+    background:linear-gradient(#F7F4EF 70% , white 30%) ;
+    width:70%;
+    padding:8% 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.intro{
+    width: 70%;
+}
+.intro h1{
+    font-size:3rem;
+}
+.head{
+    font-size:2.5rem;
+    font-weight:400px;
+    padding:5% 0;
+}
+.intro video{
+    width:70%;
+    padding:5% 0;
+}
+.con_para1{
+    line-height:1.8rem;
+    font-size:1.3rem;
+}
+form{
+    width:70%;
+    float:right;
+    background-color:#FFFFFF;
+    padding:3%;
+    box-shadow: 1px 1px 10px #D1D1D1;
+}
+form .para1{
+    font-size:1.5rem;
+    padding-bottom:5%;
+}
+input{
+    margin-bottom:4%;
+    width:93%;
+    padding:3%;
+    color:#D1D1D1;
+    border:1px solid #D1D1D1;
+}
+textarea{
+    margin-bottom:4%;
+    width:93%;
+    padding:3%;
+    color:#D1D1D1;
+    border:1px solid #D1D1D1;
+}
+.para2{
+    font-size:.7rem;
+    padding-bottom:10%;
+}
+.para2 span{
+    color:#27B5F6;
+    
+}
+form button{
+    background-color: #F0483F;
+    color:white;
+    font-size:1rem;
+    padding:.6rem 1.5rem;
+    border:none;
+}
+.for_call{
+    width:70%;
+    padding:0 15%;
+    display:flex;
+}
+.for_call .content{
+     width:40%;
+     padding:8% 8%;
+     font-size:1.2rem;
+}
+.for_call .para1{
+    font-size:3rem;
+    padding:4% 0;
+}
+.for_call h3{
+    font-size:1.8rem;
+}
+.for_call .para2{
+    font-size:1.2rem;
+    padding:5% 0;
+    line-height: 1.5rem;
+}
+.video{
+    float:right;
+    padding:8% 0;
+}
+.for_call video{
+    width:50%;
+}
+.para3{
+    color:#27B5F6;
+    padding:4% 0;
+}
